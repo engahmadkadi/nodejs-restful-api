@@ -38,3 +38,5 @@ router.post('/register', function(req, res) {
       res.status(200).send(decoded);
     });
   });
+
+module.exports = router;
